@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <button className={styles.secondary}>new next button</button>
-      <custmetitle> MyVi new changes</custmetitle>
+      <custmetitle> MyVi new changesasdfasdf</custmetitle>
       <div>
         <h1>App1 - User Info</h1>
         <pre>{JSON.stringify(user, null, 2)}</pre>
