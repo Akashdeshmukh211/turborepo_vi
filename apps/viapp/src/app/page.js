@@ -4,14 +4,11 @@ import styles from "./page.module.css";
 import { button } from "@repo/ui/button";
 import { custmetitle } from "@repo/ui/custmetitle";
 import { useEffect, useState } from "react";
-import { getUser } from "@myorg/api";
+
 
 export default function Home() {
   const [user, setUser] = useState([]);
 
-  useEffect(() => {
-    getUser(1).then(setUser);
-  }, []);
   return (
     <>
       <button className={styles.secondary}>new next button</button>
